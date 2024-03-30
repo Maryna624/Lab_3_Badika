@@ -1,0 +1,178 @@
+
+
+/*index.html
+--------------------------------------------------------------------*/
+.index h1 {
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 500;
+		color: #70798C;
+		text-align: center;
+}
+
+.gamlet p {
+	background-color: #272727;
+	font-size: 20px;
+}
+
+.gamlet .english {
+	font-weight: bold;
+	font-style : italic;
+	color: #FED766;
+	line-height: 150%;
+
+}
+
+.gamlet .ukraine {
+	font-style: italic;
+	font-weight: 200;
+	color: #95C623;
+	line-height: 150%;
+}
+
+.gamletE p {
+	ccolor: black;
+}
+
+.gamletE b {
+	color: red;
+	font-size: 18px;
+}
+
+.gamletE i {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #800080;
+}
+
+.gamletE imagegamlet {
+	float: left;
+	margin-left: 350px;
+	top: 645px;
+	position: absolute;
+}
+
+.olcl {
+	list-style-type: lower-roman;
+	padding: 50px;
+	border: 2px dashed darkgreen;
+}
+
+.olcl ul {
+	list-style-type: square;
+}
+
+.marker {
+  list-style-image: url('image/cat.png');
+}
+
+/*--------------------------------------------------------------------*/
+
+/*forms.html
+----------------------------------------------------------------------*/
+.forms {
+	background-color: skyblue;
+}
+
+.forms fieldset {
+	border: 6px double black;
+	border-radius: 5px;
+}
+
+.forms legend {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+
+.forms input {
+	border: 2px solid green;
+	padding: 10px;
+	font-family: 'Arial', monospace;
+}
+
+.forms input[type="text"] {
+	color: red;
+}
+
+.forms label {
+	font-size: 18px;
+	font-style: italic;
+}
+
+.forms button {
+	background-color: green;
+	width: 120px;
+	height: 40px;
+	font-size: 14px;
+	color: white;
+	border-radius: 10px;
+	border-style: none;
+}
+
+/*--------------------------------------------------------------------*/
+
+/*blocks.html
+----------------------------------------------------------------------*/
+.blocks body{
+	margin: 0;
+  padding: 0;
+}
+
+.blocks header {
+	background-color: lightcoral;
+	padding: 10px;
+	border-bottom: 1px solid black;
+	opacity: 50%;
+}
+
+.blocks nav {
+	background-color: lightgray;
+  padding: 5px;
+}
+
+.blocks main {
+  background-color: lightgreen;
+  padding: 10px;
+  display: flex;
+  width: 100%;
+}
+
+.blocks article {
+	flex: 1;
+  background-color: skyblue;
+  padding: 20px;
+ 	margin-top: 30px;
+}
+
+.blocks section {
+	background-color: coral;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  height: 100px;
+}
+
+.blocks aside {
+	width: 200px;
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+.blocks footer {
+	background-color: lightblue;
+  padding: 10px;
+  opacity: 50%;
+}
+
+.blocks .mainn {
+	display: flex;
+	margin-block: auto;
+}
+
+.blocks .mainn aside{
+	border: 1px solid #000000;
+  margin-left: 10px;
+  display: flex;
+  background-color: #ffc0cb;
+  opacity: 50%;
+}
